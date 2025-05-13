@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>¡EMPRENDEDOR SENATINO!</title>
+  <style>
+    body {
+      background-color: #f3ecfd;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      padding-top: 40px;
+    }
+
+    .container {
+      background-color: white;
+      border-radius: 8px;
+      width: 600px;
+      padding: 40px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      border-top: 8px solid #673ab7;
+    }
+
+    h1 {
+      font-size: 26px;
+      margin-bottom: 10px;
+      color: #1a1a1a;
+    }
+
+    p.subtitulo {
+      margin-bottom: 30px;
+      color: #444;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"] {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #673ab7;
+      color: white;
+      padding: 12px 24px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #5e35b1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>💥 ¡EMPRENDEDOR SENATINO, LLEVA TU NEGOCIO AL SIGUIENTE NIVEL!</h1>
+    <p class="subtitulo">Completa el formulario para participar en el programa.</p>
+    
+    <form action="#" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" required>
+
+      <label for="dni">DNI:</label>
+      <input type="number" id="dni" name="dni" required>
+
+      <label for="id">ID:</label>
+      <input type="text" id="id" name="id" required>
+
+      <label for="correo">Correo Electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+</body>
+</html>
